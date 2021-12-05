@@ -1,0 +1,96 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".AddLocation">
+
+    <!--Edit text to enter course name-->
+        <EditText
+            android:id="@+id/idLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Enter Link Name" />
+
+        <!--edit text to enter course duration-->
+        <EditText
+            android:id="@+id/idstartLatitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Enter Start Latitude" />
+
+        <!--edit text to display course tracks-->
+        <EditText
+            android:id="@+id/idstartLongitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Enter Start Longitude" />
+
+        <EditText
+            android:id="@+id/idendLatitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Enter end Latitude" />
+
+        <!--edit text to display course tracks-->
+        <EditText
+            android:id="@+id/idendLongitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Enter end Longitude" />
+
+        <EditText
+            android:id="@+id/idcapacity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Enter Link Capacity" />
+
+        <!--edit text for course description-->
+        <EditText
+            android:id="@+id/idIndex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Enter Location Default Traffic Index " />
+
+        <!--search view to search our location-->
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            tools:context=".AddLocation" />
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/idSearchView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#BFBFBF"
+            android:elevation="5dp"
+            app:iconifiedByDefault="false"
+            app:queryHint="Search Here" />
+
+        <!--button for adding new course-->
+        <Button
+            android:id="@+id/idAddLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Add Location"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+</ScrollView>

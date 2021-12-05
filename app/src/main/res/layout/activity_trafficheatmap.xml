@@ -1,0 +1,59 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".trafficheatmap">
+
+        <EditText
+            android:id="@+id/idlocid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Location ID" />
+
+        <EditText
+            android:id="@+id/typedate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Date" />
+
+        <EditText
+            android:id="@+id/typetime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Time" />
+
+        <Button
+            android:id="@+id/settimeanddate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Set Date and Time"
+            android:textAllCaps="false" />
+
+
+        <Button
+            android:id="@+id/viewvolume"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Volume Based Traffic Heat Map"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/viewspeed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Speed Based Traffic Heat Map"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+</ScrollView>

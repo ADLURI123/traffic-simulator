@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "326976030499",
+    "firebase_url": "https://trafficheatmap-329015-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "trafficheatmap-329015",
+    "storage_bucket": "trafficheatmap-329015.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:326976030499:android:06cc89d43f5fe11f74ae96",
+        "android_client_info": {
+          "package_name": "com.abhinay.trafficheatmap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "326976030499-o2cjqkn3mtcbjs7ehefto3c7o1570jlq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCu986hSZ2Ry268Tmc07rN0c4_vQMkTZU8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "326976030499-o2cjqkn3mtcbjs7ehefto3c7o1570jlq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
